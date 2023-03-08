@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <div>
+        <div style={pageStyle}>
+            <input type="text" style={{ borderRadius: '10px' }} placeholder="E-mail ou CPF" value={name} onChange={(event) => setName(event.target.value)}/>
+            <input type="password" style={{ borderRadius: '10px' }} placeholder="Senha" value={name} onChange={(even) => setName(event.target.value)}/>
+        </div>
+        {name && (
+            <Link to={Pagina6}>
+                <button style={buttonStyle}>Entrar</button>
+            </Link>)}
+    </div>
+  
+  <div style={containerStyle}>
+      <Link to={pagina12}>
+        <FontAwesomeIcon icon={faArrowLeft} style={arrowStyle} />
+      </Link>
+      <div style={headingStyle}>Escolha sua Zona</div>
+      <div style={buttonContainerStyle}>
+        <button
+          style={{
+            ...buttonStyle,
+            backgroundColor: selectedZone === 'Oeste' ? 'blue' : 'white',
+            color: selectedZone === 'Oeste' ? 'white' : 'black',
+          }}
+          onClick={() => handleZoneSelection('Oeste')}
+        >
+          Oeste
+        </button>
+        <button
+          style={{
+            ...buttonStyle,
+            backgroundColor: selectedZone === 'Norte' ? 'blue' : 'white',
+            color: selectedZone === 'Norte' ? 'white' : 'black',
+          }}
+          onClick={() => handleZoneSelection('Norte')}
+        >
+          Norte
+        </button>
+        <button
+          style={{
+            ...buttonStyle,
+            backgroundColor: selectedZone === 'Leste' ? 'blue' : 'white',
+            color: selectedZone === 'Leste' ? 'white' : 'black',
+          }}
+          onClick={() => handleZoneSelection('Leste')}
+        >
+          Leste
+        </button>
+        <button
+          style={{
+            ...buttonStyle,
+            backgroundColor: selectedZone === 'Sul' ? 'blue' : 'white',
+            color: selectedZone === 'Sul' ? 'white' : 'black',
+          }}
+          onClick={() => handleZoneSelection('Sul')}
+        >
+          Sul
+        </button>
+        <button
+          style={{
+            ...buttonStyle,
+            backgroundColor: selectedZone === 'Centro' ? 'blue' : 'white',
+            color: selectedZone === 'Centro' ? 'white' : 'black',
+          }}
+          onClick={() => handleZoneSelection('Centro')}
+        >
+          Centro
+        </button>
+      </div>
+      <Link to={Pagina10}>
+      <button style={buttonStyleConti}>Continue</button>
+      </Link>
+    </div>
+</body>
+</html>
+
+
