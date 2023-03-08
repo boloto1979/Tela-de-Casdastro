@@ -1,0 +1,692 @@
+  const buttonStyle = {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "200px",
+    height: "200px",
+    borderRadius: "50%",
+    backgroundColor: "#FFFFFF",
+    color: "#000000",
+    textDecoration: "none",
+    fontSize: "20px",
+    fontWeight: "bold",
+    margin: "auto",
+    marginTop: "50px",
+  };
+
+  const blackButtonStyle = {
+    ...buttonStyle,
+    backgroundColor: "#000000",
+    color: "#FFFFFF",
+  };
+
+  const imgStyle = {
+    margin: '20px',
+    justifyContent: 'center',
+  };
+
+    const [name, setName] = useState('');
+    const textContainer = {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      marginTop: '50px',
+    };
+  
+    const arrowStyle = {
+      position: 'absolute',
+      top: '20px',
+      left: '20px',
+      fontSize: '24px',
+    };
+
+    const buttonStyle = {
+      backgroundColor: '#4395ff',
+      color: 'white',
+      borderRadius: '20px',
+      padding: '10px',
+      margin: '20px 0',
+      width: '120px',
+      textAlign: 'center',
+    };
+
+    const [name, setName] = useState('');
+  const pageStyle = {
+    backgroundColor: '#000000',
+    height: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    border: 'none',
+    padding: '10px',
+    margin: '10px',
+    color: '#FFFFFF',
+    backgroundColor: '#333333',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+    position:'fixed',
+    bottom: '0',
+  };
+
+const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: 'auto',
+    color: '#767873',
+  };
+
+  const inputContainerStyle = {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    margin: '20px 0',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '100px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+  };
+
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '100px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+  };
+
+  const headingStyle = {
+    fontWeight: 'bold',
+    margin: '20px 0',
+  };
+
+  const buttonContainerStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: 'white',
+    color: 'black',
+    borderRadius: '50%',
+    width: '100px',
+    height: '100px',
+    margin: '10px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '20px',
+  };
+
+  const buttonStyleConti = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const [selectedZone, setSelectedZone] = useState('');
+
+  const handleZoneSelection = (zone) => {
+    setSelectedZone(zone);
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleSubmit = () => {
+    setIsSubmitted(true);
+  };
+
+ const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const buttonContainerStyle = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: '20px 0',
+  };
+
+  const buttonStyle = {
+    backgroundColor: 'black',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const titleStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const subtitleStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+  };
+
+  const inputStyle = {
+    borderRadius: '50px',
+    border: 'none',
+    padding: '10px',
+    margin: '20px',
+    fontSize: '20px',
+    width: '300px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const titleStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputContainerStyle = {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: '20px 0',
+  };
+
+  const inputStyle = {
+    borderRadius: '50px',
+    border: 'none',
+    padding: '10px',
+    margin: '0 20px',
+    fontSize: '20px',
+    width: '300px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: '#4395ff',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const titleStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const subtitleStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    color:'#767873',
+  };
+
+  const buttonContainerStyle = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    width: '70%',
+    margin: '50px 0',
+  };
+
+  const buttonStyle = {
+    backgroundColor: selectedButton ? (selectedButton === 'button1' ? 'white' : 'black') : 'black',
+    color: selectedButton ? (selectedButton === 'button1' ? 'black' : 'white') : 'white',
+    borderRadius: '50%',
+    border: 'none',
+    padding: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+    cursor: 'pointer',
+  };
+
+ const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+  };
+
+  const inputStyle = {
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '0 10px',
+    width: '200px',
+    textAlign: 'center',
+  };
+
+  const buttonStyle = {
+    backgroundColor: 'black',
+    color: 'white',
+    borderRadius: '20px',
+    padding: '10px',
+    margin: '20px 0',
+    width: '120px',
+    textAlign: 'center',
+  };
+
+  const App = {
+    textAlign: 'center',
+  };
+
+ useEffect(() => {
+    const width = ref.current.offsetWidth;
+    const height = ref.current.offsetHeight;
+    if (width > height) {
+      ref.current.style.height = `${width}px`;
+    } else {
+      ref.current.style.width = `${height}px`;
+    }
+  }, [text]);
+
+  const valorStyle = {
+    borderRadius: 'red',
+    textAlign: 'center',
+  };
+
+  const containerStyle = {
+    backgroundColor: 'white',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  };
+
+  const arrowStyle = {
+    position: 'absolute',
+    top: '20px',
+    left: '20px',
+    fontSize: '24px',
+    fontWeight: 'bold',
+  };
+
+  const textContainerStyle = {
+    textAlign: 'center',
+    margin: '20px 0',
+    fontWeight: 'bold',
+    color: 'green',
+  };
+
+  const inputStyle = {
+    textAlign: 'center',
+  };
