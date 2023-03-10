@@ -34,7 +34,7 @@ function Pagina1(props) {
   return (
     <div>
       <a href="/">
-        <img style={imgStyle} src="https://static.wixstatic.com/media/c31b7b_960834835c7546f9a62d785a71ac3643~mv2.png/v1/fill/w_240,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo1%20(2).png" alt="Logo do site" />
+        <img style={imgStyle} src="" />
       </a>
       <Link to={Pagina5} style={blackButtonStyle}>
         <button style={blackButtonStyle}>Criar cadastro</button>
